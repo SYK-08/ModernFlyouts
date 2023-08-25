@@ -19,12 +19,12 @@
 
 This application aims to provide a **Fluent Design System** based replacement for the old, built-in, **Metro Design** based **Audio/Airplane mode/Brightness** flyouts in **Windows** ~~*(which haven't been updated since Windows 8)*~~  which are shown while pressing the media or volume keys or even the brightness keys *(may be absent on Desktop PCs)* or when airplane/flight mode is toggled.
 
-In case of Windows 11, this application will have the same UI but will provide additional features and customizability compared to the built-in redesigned flyouts.
+In the case of Windows 11, this application will have the same UI but will provide additional features and customizability compared to the built-in redesigned flyouts.
 
 This project has its roots in the app [AudioFlyout](https://github.com/ADeltaX/AudioFlyout) by [ADeltaX](https://github.com/ADeltaX/).
 With additional implementations for **"Airplane mode"**, **"Brightness"** and **"LockKeys"** *(includes Insert key, Caps, Num & Scroll lock keys)* flyouts, this project stands as a complete replacement for the built-in flyouts.
 
-> Note : The built-in flyout will not be permanently affected. It will be hidden temporarily while this application is running. So, no reason to fear breaking your system.
+> Note: The built-in flyout will not be permanently affected. It will be hidden temporarily while this application is running. So, no reason to fear breaking your system.
 > For more information on how to recover the original flyouts, check out [this How To page](https://github.com/ModernFlyouts-Community/ModernFlyouts/wiki/How-To).
 
 > Users are provided the freedom to choose between the Windows built-in flyouts or modern flyouts from ModernFlyouts or neither of them.
@@ -42,7 +42,7 @@ With additional implementations for **"Airplane mode"**, **"Brightness"** and **
 - Fluent Design based UI.
 - Supports **Light** and **Dark** mode.
 - Redesigned **Volume + Media**, **Brightness** and **Airplane mode** flyouts.
-- Media Controls have support for (not all app support the whole feature set. [More on this](docs/GSMTC-Support-And-Popular-Apps.md))
+- Media Controls have support for (not all apps support the whole feature set. [More on this](docs/GSMTC-Support-And-Popular-Apps.md))
   - **Shuffle**,
   - **Repeat**,
   - **Stop**
@@ -53,8 +53,8 @@ With additional implementations for **"Airplane mode"**, **"Brightness"** and **
   - Auto or Manual Placement mode,
   - Flyout Alignment,
   - Flyout content stacking direction.
-- Flyout's TopBar can be pinned, unpinned or hidden.
-- Flyout is **Draggable** and autosaves the position. It also has feature for default position. (Check out the settings)
+- Flyout's TopBar can be pinned, unpinned, or hidden.
+- Flyout is **Draggable** and autosaves the position. It also has a feature for default position. (Check out the settings)
 - Supports multi-monitor setup and users can select which monitor to show the flyout on.
 - Smooth **Animations** & **Transitions**.
 - **Opacity** of the background of flyouts can be changed.
@@ -65,7 +65,7 @@ With additional implementations for **"Airplane mode"**, **"Brightness"** and **
 ## System Requirements  🖥️
 - **Windows 11**
 - **Windows 10 1809 and above** 
-> older versions such as [v0.3](https://github.com/ModernFlyouts-Community/ModernFlyouts/releases/tag/v0.3.0) and below support Windows 10 1803 downlevel till Windows 8, however v0.4 and above won't.
+> Older versions such as [v0.3](https://github.com/ModernFlyouts-Community/ModernFlyouts/releases/tag/v0.3.0) and below support Windows 10 1803 downlevel till Windows 8, however v0.4 and above won't.
 
 ------------------------
 
@@ -88,7 +88,7 @@ All the distribution methods mentioned above are supported, however installing t
 
 **winget**
 
-_please note that due to how winget processes package updates, updates may take **longer** to be released to winget_.
+_Please note that due to how winget processes package updates, updates may take **longer** to be released to winget_.
 
 `winget install --id=ModernFlyouts.ModernFlyouts -e`
 
@@ -100,17 +100,17 @@ ModernFlyouts is **unofficially** available to install via Chocolatey [here](htt
 
 ## Connect with us  🌐
 
-You can join our [Discord Server](https://discord.gg/TcYskeyaYE) or [Telegram Group](https://t.me/ModernFlyouts) to connect with us. By doing so, we can have off-topic conversations, news about this app, development previews and providing & collecting feedback.
+You can join our [Discord Server](https://discord.gg/TcYskeyaYE) or [Telegram Group](https://t.me/ModernFlyouts) to connect with us. By doing so, we can have off-topic conversations, news about this app, development previews, and providing & collecting feedback.
 
 ------------------------
 
 ## Contributing  🤝
 
-This project welcomes all types of contributions such help planning, design, documentation, finding bugs are ways everyone can help on top of coding features/bug fixes. We are excited to work with the community to make this project reach its goals and beyond.
+This project welcomes all types of contributions such as help planning, design, documentation, and finding bugs are ways everyone can help on top of coding features/bug fixes. We are excited to work with the community to make this project reach its goals and beyond.
 
 We ask that **before you start to work on a feature/bug fix that you would like to see happen**, please read [the Contributor's Guide](CONTRIBUTING.md). We will be happy to work with you to figure out the best approach, provide guidance and mentorship throughout the feature development, and help avoid any wasted or duplicate effort.
 
-For guidance on developing for ModernFlyouts, please read [the developer guide](docs/developer_guide.md) for a detailed breakdown. This includes how to setup your computer to build and run the app.
+For guidance on developing for ModernFlyouts, please read [the developer guide](docs/developer_guide.md) for a detailed breakdown. This includes how to set up your computer to build and run the app.
 
 ------------------------
 
@@ -118,15 +118,15 @@ For guidance on developing for ModernFlyouts, please read [the developer guide](
 
 ### Credits
 
-First of all, we must thank our good friend **[ADeltaX](https://github.com/ADeltaX/)** for one of his marvelous works **[AudioFlyout](https://github.com/ADeltaX/AudioFlyout)**. Since the project was stale for a while and it lacked support for brightness and airplane mode flyouts, this project was born. He not only let us use his source code but also helped us improve this app. And he still supports us 😄.
+First of all, we must thank our good friend **[ADeltaX](https://github.com/ADeltaX/)** for one of his marvelous works **[AudioFlyout](https://github.com/ADeltaX/AudioFlyout)**. Since the project was stale for a while and lacked support for brightness and airplane mode flyouts, this project was born. He not only let us use his source code but also helped us improve this app. And he still supports us 😄.
 I must admit that this project wouldn't be here *how it is* without **[ADeltaX](https://github.com/ADeltaX/)**. Our heartful thanks to him ❤.
 
-We must also say a big thanks to [our contributors](https://github.com/ModernFlyouts-Community/ModernFlyouts/graphs/contributors) for helping us with some important bug fixes, adding features and localization.
+We must also say a big thanks to [our contributors](https://github.com/ModernFlyouts-Community/ModernFlyouts/graphs/contributors) for helping us with some important bug fixes, adding features, and localization.
 
 ### Our Team 
 
 - **[ShankarBUS](https://github.com/ShankarBUS/)** - Ex-Maintainer/co-owner & Developer.
-- **[ADeltaX](https://github.com/ADeltaX/)** - Developer of innovative solutions to circumvent microsoft rubbish
+- **[ADeltaX](https://github.com/ADeltaX/)** - Developer of innovative solutions to circumvent Microsoft rubbish
 - **[FireCubeStudios](https://github.com/FireCubeStudios/)** - Developer/Maintainer.
 - **[Samuel12321](https://github.com/Samuel12321/)** - Maintainer/co-owner of this repository and application publisher (including **Microsoft Store**).
 - **[PrakharB5](https://github.com/prakharb5)** - Repository Maintainer.
@@ -141,7 +141,7 @@ We must also say a big thanks to [our contributors](https://github.com/ModernFly
 
 ## Beta Builds  🚧
 
-The ability to signup for beta builds has been temporarily disabled while we work on a better way to release and manage them. Beta builds will still occasionally be available to download fron the releases tab on github. Thank to everyone who help us test new releases and find bugs before they go public.
+The ability to sign up for beta builds has been temporarily disabled while we work on a better way to release and manage them. Beta builds will still occasionally be available to download from the releases tab on GitHub. Thanks to everyone who helps us test new releases and find bugs before they go public.
 
 ------------------------
 
